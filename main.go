@@ -101,7 +101,7 @@ func worker(steps int, repick bool) {
 			result++
 		}
 	}
-	fmt.Println("Without ", repick, " bingo - ", result, " steps = ", steps)
+	fmt.Println("Repick is ", repick, " bingo - ", result, " steps = ", steps)
 
 	wg.Done()
 }
